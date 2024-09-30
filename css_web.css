@@ -154,9 +154,9 @@
     margin-bottom: 32px;
     background-color: rgba(211, 211, 211, 0.315);
     display: inline-flex;
-    flex-direction: row;
     font-size: 12px;
     padding: 0px 0px;
+    
     
     
 }
@@ -181,7 +181,6 @@
 .thesis4{
     font-size: 12px;
     display: grid;
-    
     grid-template-columns: repeat(1,1fr);
     margin-top: px;
     width: 40%;
@@ -190,14 +189,24 @@
     padding: 16px;
     flex-wrap: wrap;
     
+    
 }
 
 .div2{
-    float: right;
+    display: flex;
+    
 }
 
 .div3{
-    float: right;
+    display: flex;
+}
+
+.thesis5{
+    padding-left: 24px;
+}
+
+.thesis6{
+    padding-left: 24px;
 }
 
 
