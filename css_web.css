@@ -5,7 +5,9 @@
     font-family: "Merriweather", serif,serif;
 }
 
-
+@media only screen and (max-width: 480px) {
+    /* CSS styles for screens with a maximum width of 768px */
+}
 
 .grid-container{
     display: grid;
@@ -103,4 +105,105 @@
     
   padding: 0px 24px 32px 32px ;
     
+}
+
+
+
+
+
+.course{
+
+    background-color: rgba(211, 211, 211, 0.315);
+}
+
+
+.course2{
+    padding-left: 16px;
+    padding: 16px 16px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 32px;
+    margin: 0px 72px;
+    line-height: 8px;
+   
+
+    
+}
+
+
+
+.course2 h1 {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    
+}
+
+.course div:nth-child(1){
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+
+
+
+
+
+.thesis2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: rgba(211, 211, 211, 0.315);
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 12px;
+    padding: 0px 0px;
+    
+    
+}
+
+.thesis h1{
+    font-size: 29px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.thesis3{
+    width: 60%;
+    margin: 24px;
+
+}
+
+
+.thesis4{
+    font-size: 12px;
+    display: grid;
+    
+    grid-template-columns: repeat(1,1fr);
+    margin-top: px;
+    width: 40%;
+    background-color: rgb(238, 174, 77);
+    margin: 24px 0px 0px 0px ;
+    padding: 16px;
+    flex-wrap: wrap;
+    
+}
+
+.div2{
+    float: right;
+}
+
+.div3{
+    float: right;
+}
+
+
+
+.footer{
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
 }
