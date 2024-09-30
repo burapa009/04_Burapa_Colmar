@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+
+
+.grid-container{
+    display: grid;
+}
+
+
+.nav-bar{
+    display: flex;
+    font-size: 32px;
+    word-spacing: 16px;
+    height: 64px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.campus{
+    margin-right: 24px;
+    text-decoration: underline;
+
+}
+
+
+
