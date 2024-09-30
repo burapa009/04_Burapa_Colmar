@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing:border-box ;
+    font-family: "Merriweather", serif,serif;
 }
+
 
 
 .grid-container{
@@ -14,19 +16,91 @@
     display: flex;
     font-size: 32px;
     word-spacing: 16px;
-    height: 64px;
+    height: 32px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    
+    padding-top: 32px;
+    position: sticky;
+  
+   
     
 }
 
 .campus{
     margin-right: 24px;
-    text-decoration: underline;
+    
 
 }
 
 
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    margin-top: 64px;
+    font-weight: 900;
+    padding: 32px 24px;
+   
+    
+}
 
+.hero2{
+    display: inline-flex;    
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    font-size: 25px;
+    height: 80%;
+    width: 30%;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+.hero2 h1{
+    margin: 8px 8px;  
+    display: block;
+    font-weight: 900;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    
+}
+
+.button-hero{
+    background-color:rgb(133, 210, 212);
+    display: flexbox;
+    align-self:center;
+    padding:5px 20%;
+    margin-top: 50px;
+    align-self: flex-start;
+}
+
+
+
+
+
+
+.information2{
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.315);
+    padding: 32px 24px 0px 32px;
+    
+   
+}
+
+.information2 h2{
+    font-weight: 900;
+    padding: 32px ;
+}
+
+.information2 p:nth-child(3) {
+    padding-bottom: 32px;
+   
+    
+}
+
+.information3 {
+    
+  padding: 0px 24px 32px 32px ;
+    
+}
